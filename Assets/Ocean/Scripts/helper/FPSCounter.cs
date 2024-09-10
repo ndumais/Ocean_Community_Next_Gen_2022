@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace UnityStandardAssets.Utility
@@ -14,11 +15,16 @@ namespace UnityStandardAssets.Utility
         const string display = "{0} FPS";
         private Text m_Text;
 
+        [SerializeField] private bool unlockFPS = true;
 
         private void Start()
         {
             m_FpsNextPeriod = Time.realtimeSinceStartup + fpsMeasurePeriod;
             m_Text = GetComponent<Text>();
+
+            if (unlockFPS) {
+                Application.targetFrameRate = int.MaxValue;
+            }
         }
 
 
