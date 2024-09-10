@@ -28,6 +28,7 @@ Optimized for Unity 5, tested on Android
 4.1th iteration by ndumais
 
 - updated the project to Unity version 2022.3.14f1
+- added simple fps unlocker to the fps counter
 
 
 Get updates here: http://forum.unity3d.com/threads/the-community-ocean-shader-open-source-unity-5.370818/
