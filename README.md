@@ -1,4 +1,4 @@
-Minimum Version Required is Unity 5.6. Works with Unity 2017, 2018.
+Minimum Version Required is Unity 5.6. Works with Unity 2017, 2018 and now 2022
 
 
 Based on ocean community : http://forum.unity3d.com/threads/wanted-ocean-shader.16540/
@@ -19,13 +19,18 @@ Ocean mobile with boat physics
 Optimized for Unity 5, tested on Android
 - Mask system to hide the water inside the boat
 
-4th iteration by me (Elias Tsiantas) : http://forum.unity3d.com/members/elias_t.24679/
+4th iteration by Elias Tsiantas): http://forum.unity3d.com/members/elias_t.24679/
 
 - tremendous speed increase by lots and lots of optimizations.
 - shader rewrite and multiple shader lods.
 - editor rewrite with new functionality.
 
-Get updates here: http://forum.unity3d.com/threads/the-community-ocean-shader-open-source-unity-5.370818/
+4.1th iteration by ndumais
 
+- updated the project to Unity version 2022.3.14f1
+
+
+Get updates here: http://forum.unity3d.com/threads/the-community-ocean-shader-open-source-unity-5.370818/
+Seems like this forum post is dead but feel free to fork this and pick this up
 
 
